@@ -1,0 +1,20 @@
+{
+    "name": "maxim/article-content-provider-bundle",
+    "description": "creating content for article",
+    "type": "symfony-bundle",
+    "require": {
+        "php": "8.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Bayurov",
+            "email": "m.bayurov@agimagroup.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CatCasCarSkillboxSymfony\\ArticleContentProviderBundle\\": "src"
+        }
+    }
+}
